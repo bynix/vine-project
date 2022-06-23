@@ -4,18 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.aomsweet</groupId>
-    <artifactId>cyber-parent</artifactId>
+    <groupId>io.github.bynix</groupId>
+    <artifactId>vine-project</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0.alpha4-SNAPSHOT</version>
+    <version>1.0.0.alpha1-SNAPSHOT</version>
     <modules>
-        <module>cyber-core</module>
-        <module>cyber-bouncycastle</module>
+        <module>vine-core</module>
+        <module>vine-mitm</module>
     </modules>
 
-    <name>cyber-parent</name>
+    <name>vine-project</name>
     <description>High-performance proxy library based on Netty. Support socks/http mixed protocol, upstream proxy, MITM, intercept and tamper with https traffic.</description>
-    <url>https://github.com/aomsweet/cyber</url>
+    <url>https://github.com/bynix/vine-project</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,14 +34,14 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.github.aomsweet</groupId>
-                <artifactId>cyber-core</artifactId>
+                <groupId>io.github.bynix</groupId>
+                <artifactId>vine-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>io.github.aomsweet</groupId>
-                <artifactId>cyber-bouncycastle</artifactId>
+                <groupId>io.github.bynix</groupId>
+                <artifactId>vine-mitm</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -110,15 +110,15 @@
 
     <developers>
         <developer>
-            <name>aomsweet</name>
-            <email>aomsweet@tutanota.com</email>
+            <name>bynix</name>
+            <email>bynix@pm.me</email>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/aomsweet/cyber.git</connection>
-        <developerConnection>scm:git:ssh://github.com:aomsweet/cyber.git</developerConnection>
-        <url>https://github.com/aomsweet/cyber</url>
+        <connection>scm:git:git://github.com/bynix/vine-project.git</connection>
+        <developerConnection>scm:git:ssh://github.com:bynix/vine-project.git</developerConnection>
+        <url>https://github.com/bynix/vine-project</url>
     </scm>
 
     <build>

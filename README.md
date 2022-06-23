@@ -1,4 +1,4 @@
-# Cyber Project
+# Vine Project
 
 High-performance proxy library based on Netty. Support socks/http mixed protocol, upstream proxy, MITM, intercept and tamper with https traffic.
 
@@ -17,9 +17,9 @@ High-performance proxy library based on Netty. Support socks/http mixed protocol
 pom.xml
 ```xml
 <dependency>
-  <groupId>io.github.aomsweet</groupId>
-  <artifactId>cyber-core</artifactId>
-  <version>1.0.0.alpha1</version>
+  <groupId>io.github.bynix</groupId>
+  <artifactId>vine-core</artifactId>
+  <version>1.0.0.alpha1-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -28,7 +28,7 @@ Demo.java
 public class Demo {
 
     public static void main(String[] args) {
-        new CyberServer.Builder()
+        new VineServer.Builder()
             .withPort(2228)
             .build().start();
     }

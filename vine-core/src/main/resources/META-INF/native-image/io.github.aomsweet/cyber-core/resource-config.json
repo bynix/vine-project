@@ -1,0 +1,12 @@
+{
+    "resources": {
+        "includes": [
+            {
+                "pattern": "io/github/bynix/vine/http/mitm/cert/VINE_CERT.DER"
+            },
+            {
+                "pattern": "io/github/bynix/vine/http/mitm/cert/PRIVATE.KEY"
+            }
+        ]
+    }
+}
